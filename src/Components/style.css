@@ -1,0 +1,167 @@
+* {
+  color: beige;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(7, 53, 70);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 480px;
+  padding: 15px;
+}
+hr {
+  margin: 28px 0px;
+  background-color: burlywood;
+}
+.btn {
+  margin: 0px 10px;
+  background-color: green;
+  border: 1px green;
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: bold;
+  color: burlywood;
+  position: relative;
+  bottom: 2px;
+}
+input {
+  width: 78%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 15px;
+  color: burlywood;
+}
+input::placeholder {
+  color: antiquewhite;
+  font-weight: bold;
+}
+ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 3px;
+}
+.btn:hover {
+  box-shadow: 2px 2px 13px 8px green;
+}
+.tick {
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+  margin: 0px 6px 0px 0px;
+  height: 25px;
+}
+ul > div {
+  position: relative;
+  display: flex;
+  border-radius: 15px;
+  justify-content: flex-start;
+  border: solid 1px;
+  padding: 5px;
+  margin: 18px 0px;
+}
+ul > div:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 17px 15px rgb(222, 184, 135);
+  box-shadow: 0px 3px 17px 15px rgb(222, 184, 135);
+}
+.opc {
+  opacity: 0.6;
+  text-decoration: line-through;
+  color: indianred;
+  font-weight: 600;
+}
+.delete {
+  position: absolute;
+  right: 0px;
+  border: none;
+  margin: 5px 8px 5px 0px;
+  color:aliceblue;
+}
+.delete:hover{
+  color: red;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-btn > button {
+  margin: 0px 5px 0px 0px;
+  border: none;
+}
+.hz {
+  position: relative;
+  top: 2px;
+}
+.footer-btn {
+  margin: 0px 12px 0px 28px;
+}
+.footer > button:hover,
+.footer-btn > button:hover {
+  text-decoration: underline;
+  color: burlywood;
+  font-style: italic;
+}
+.clear {
+  border: none;
+}
+.clear:hover {
+  cursor: pointer;
+}
+.footer > span {
+  font-size: smaller;
+  position: relative;
+  top: 2px;
+}
+.oversize {
+  width: 313px;
+}
+ul > div > li {
+  width: 265px;
+  overflow: auto;
+  overflow-y: hidden;
+  font-size: larger;
+}
+.afterTick {
+  visibility: visible;
+  font-weight: 900;
+  color: green;
+}
+h1 {
+  font-style: italic;
+  color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.open {
+  border: 1px solid burlywood;
+  border-radius: 50%;
+  position: relative;
+  right: 8px;
+  padding: 4px;
+  color: burlywood;
+}
+
+.open-rotate {
+  transform: rotate(90deg);
+}
+.open:hover {
+  cursor: pointer;
+}
+.hdn {
+  display: none;
+}
+.equal {
+  position: relative;
+  left: 6px;
+}
