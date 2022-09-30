@@ -3,8 +3,6 @@ import React from "react";
 function Todo({ item, setTotal, total, temp, setTemp }) {
   const delete_task = () => {
     console.log("delete");
-    console.log(item, "BURAAA");
-    console.log(total);
     setTotal(
       total.filter((fl) => {
         return fl.id !== item.id;
