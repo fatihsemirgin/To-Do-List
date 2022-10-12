@@ -20,7 +20,7 @@ function Task({ total, setTotal, hid, setHid }) {
 
   return (
     <form onSubmit={onsubmit} className="equal">
-      <button onClick={hdn} className={hid ? "open open-rotate" : "open"}>
+      <button type="button" onClick={hdn} className={hid ? "open open-rotate" : "open"}>
         <span>&#62;</span>
       </button>
       <input
